@@ -43,7 +43,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html
       lang="en"
-      className="dark bg-white scheme-light dark:bg-neutral-950
+      className=" bg-white scheme-light dark:bg-neutral-950
         dark:text-neutral-400 dark:scheme-dark"
     >
       <head>

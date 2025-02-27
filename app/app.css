@@ -1,7 +1,15 @@
 @import "tailwindcss";
 
+:root {
+    --accordion-colors-border-accent-default: #A789AB;
+}
+
+:root[class~='dark'] {
+    --accordion-colors-border-accent-default: #86688A;
+}
+
 @theme {
-  --border-color-accordion-accent: #A789AB;
+  --border-color-accordion-accent: var(--accordion-colors-border-accent-default);
   --border-width-accordion: 1px;
   --border-radius-accordion: 8px;
 }

@@ -25,7 +25,9 @@ export default function Index() {
       <div
         className="border-accordion-accent border-accordion border-r-accordion
           flex flex-col overflow-hidden"
-      ></div>
+      >
+        <span>Alma</span>
+      </div>
     </div>
   );
 }
