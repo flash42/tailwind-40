@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans:
-    "Inter Variable", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --border-color-accordion-accent: #A789AB;
+  --border-width-accordion: 1px;
+  --border-radius-accordion: 8px;
 }
 
 @utility container {
